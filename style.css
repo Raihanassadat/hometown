@@ -1,0 +1,106 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+border: 10px solid white;
+}
+
+.header {
+background-image: url(https://last-cdn.com/2021/06/30/9agu1Z3aChEuTQwHvV03JAR0fIxrjzJ1Xua3mtSf.jpeg);
+height: 500px;
+background-repeat: no-repeat;
+background-color: gray;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0.8;
+gap: 10px;
+}
+.header h1 {
+font-size: 40px;
+color: white;
+background-color: #42332dc9;
+border-radius: 20px;
+padding: 10px;
+}
+.header p {
+font-size: 24px;
+font-weight: 400px;
+text-align: center;
+width: 60%;
+color: white;
+background-color: #42332dc9;
+border-radius: 20px;
+padding: 10px;
+}
+.information {
+background-color: #80808021;
+height: 600px;
+}
+.info-title {
+font-size: 40px;
+padding: 50px;
+text-align: center;
+}
+.box {
+display: flex;
+flex: 1;
+flex-direction: row;
+gap: 20px;
+justify-content: center;
+}
+
+.box-item img {
+width: 200px;
+border-radius: 50%;
+height: 200px;
+margin-left: 20px;
+padding-top: 10px;
+}
+.box-item h2 {
+font-size: 18px;
+color: black;
+width: 240px;
+text-align: center;
+padding: 5px 5px 5px 12px;
+}
+.box-item p {
+font-size: 18px;
+color: black;
+width: 240px;
+text-align: center;
+padding: 5px 5px 5px 12px;
+}
+.footer {
+height: 300px;
+}
+.footer-box {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 30px;
+border: 2px solid gray;
+padding: 10px;
+width: 30%;
+margin: 0px auto;
+background-color: rgb(126, 119, 119);
+box-shadow: 5px 5px 10px black;
+margin-top: 50px;
+}
+.footer-box img {
+width: 150px;
+height: 200px;
+}
+.footer-info {
+width: 200px;
+}
+.footer-info h1,
+p,
+h2 {
+margin-bottom: 10px;
+}
